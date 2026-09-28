@@ -76,14 +76,7 @@ The summary lists the thesis types found in the data, which tells you exactly wh
 
 ### By thesis type
 
-Use `--type` with one of the values shown in the summary line:
-
-```bash
-python extract_titles.py --type Research
-python extract_titles.py --type Project
-```
-
-Matching ignores case, so `--type research` works too.
+Add your own filters / changes in the topic extract line.
 
 ### By keyword
 
@@ -116,15 +109,6 @@ python extract_titles.py --type Research > research_topics.txt
 ```
 
 Only the titles go into the file; the "Total" summary still shows in your terminal.
-
-### Use a different data file
-
-If you've saved an older scrape under another name, pass it as the first argument:
-
-```bash
-python extract_titles.py march_scrape.json --type Research
-```
-
 ---
 
 ## Going further: other fields and site-side filters
