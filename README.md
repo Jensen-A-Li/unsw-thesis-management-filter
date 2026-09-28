@@ -1,4 +1,4 @@
-# UNSW Thesis Topic With Better Filters
+# UNSW Thesis Topic With Better Filters and Flexibility
 
 A small toolkit for pulling the list of thesis topics from the UNSW CSE Thesis Management System ([thesis.cse.unsw.edu.au](https://thesis.cse.unsw.edu.au/)) and turning it into a plain list of titles you can read, search and filter.
 
